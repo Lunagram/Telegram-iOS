@@ -41,6 +41,9 @@
       location = "group:ModernProto/ModernProto.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:submodules/Lunagram/Lunagram.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Telegram-iOS.xcodeproj">
    </FileRef>
 </Workspace>
