@@ -58,6 +58,8 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>${BUILD_NUMBER}</string>
+	<key>GLOBAL_CONSTANTS</key>
+	<string>$(GLOBAL_CONSTANTS)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>

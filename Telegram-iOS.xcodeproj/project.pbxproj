@@ -213,6 +213,8 @@
 		09D304382174344900C00567 /* TGBridgeWebPageMediaAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C572F52172953500BDF00F /* TGBridgeWebPageMediaAttachment.m */; };
 		09D304392174344900C00567 /* TGBridgeMessageEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C572F42172953500BDF00F /* TGBridgeMessageEntities.m */; };
 		09FDAEE62140477F00BF856F /* MtProtoKitDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FDAEE52140477F00BF856F /* MtProtoKitDynamic.framework */; };
+		28D86AC1227FFC000074EEDD /* Lunagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D86AC0227FFC000074EEDD /* Lunagram.framework */; };
+		28D86AC2227FFC000074EEDD /* Lunagram.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28D86AC0227FFC000074EEDD /* Lunagram.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D000CACF21FB6E380011B15D /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D000CAC821FB6E370011B15D /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D001D5AA1F878DA300DF975A /* PhoneCountries.txt in Resources */ = {isa = PBXBuildFile; fileRef = D001D5A91F878DA300DF975A /* PhoneCountries.txt */; };
 		D006CF9F21A8D11B00FDCD32 /* ModernProto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D006CF9E21A8D11B00FDCD32 /* ModernProto.framework */; };
@@ -544,6 +546,7 @@
 				D096C2C51CC3C11A006D814E /* SwiftSignalKit.framework in Embed Frameworks */,
 				D006CFA021A8D11B00FDCD32 /* ModernProto.framework in Embed Frameworks */,
 				D0CAF3191D763B230011F558 /* MtProtoKitDynamic.framework in Embed Frameworks */,
+				28D86AC2227FFC000074EEDD /* Lunagram.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -910,6 +913,7 @@
 		09CFB211217299E80083F7A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		09D304212174335F00C00567 /* WatchBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBridge.swift; sourceTree = "<group>"; };
 		09FDAEE52140477F00BF856F /* MtProtoKitDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MtProtoKitDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D86AC0227FFC000074EEDD /* Lunagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lunagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D000CAC021FB6E160011B15D /* NotificationService-HockeyApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NotificationService-HockeyApp.entitlements"; sourceTree = "<group>"; };
 		D000CAC121FB6E160011B15D /* NotificationService-Fork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NotificationService-Fork.entitlements"; sourceTree = "<group>"; };
 		D000CAC221FB6E170011B15D /* NotificationService-AppStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NotificationService-AppStore.entitlements"; sourceTree = "<group>"; };
@@ -1222,6 +1226,7 @@
 				09C50E88217385CF009E676F /* WatchConnectivity.framework in Frameworks */,
 				09FDAEE62140477F00BF856F /* MtProtoKitDynamic.framework in Frameworks */,
 				D01A47551F4DBED700383CC1 /* HockeySDK.framework in Frameworks */,
+				28D86AC1227FFC000074EEDD /* Lunagram.framework in Frameworks */,
 				D0A18D631E149043004C6734 /* PushKit.framework in Frameworks */,
 				D0B844601DACF561005F29E1 /* libc++.tbd in Frameworks */,
 				D06706621D5118F500DED3E3 /* TelegramCore.framework in Frameworks */,
@@ -1928,6 +1933,7 @@
 		D00859931B28189D00EAF753 = {
 			isa = PBXGroup;
 			children = (
+				28D86AC0227FFC000074EEDD /* Lunagram.framework */,
 				D0CAD6A321C03BEB001E3055 /* FFMpeg.framework */,
 				D006CF9E21A8D11B00FDCD32 /* ModernProto.framework */,
 				D023EBB31DDB2F0E00BD496D /* Resources */,
@@ -2838,6 +2844,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				pt,
