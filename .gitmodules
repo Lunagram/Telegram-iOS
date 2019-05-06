@@ -34,3 +34,6 @@ url=https://github.com/peter-iakovlev/ffmpeg.git
 [submodule "submodules/LegacyComponents"]
 	path = submodules/LegacyComponents
 url=https://github.com/peter-iakovlev/legacycomponents.git
+[submodule "submodules/Lunagram"]
+	path = submodules/Lunagram
+	url = https://github.com/Lunagram/lunagram-ios.git
