@@ -46,4 +46,10 @@
    <FileRef
       location = "group:Telegram-iOS.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../MATH-Cosmos-OC-SDK/Cosmos-Keys-OC/Cosmos-Keys-OC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
