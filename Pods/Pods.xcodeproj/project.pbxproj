@@ -7,327 +7,389 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F342CB10FEE51EDC9C4FA8ACCD328C /* LayoutMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8C86D27ACF218A654E16D61AE62DDE /* LayoutMeasurement.swift */; };
-		0AC3A21B3E23E2E3B4ED8DF6B43F4D4A /* CFAbsoluteTimeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55C7BC9AE0C51603EEF3721D636A71D /* CFAbsoluteTimeExtension.swift */; };
-		177D8FC2851DD4CBF680BB32D554C8D8 /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D3D8F69C659DBAEFDD4FAC62FDE8CD /* Axis.swift */; };
-		1D9716E21C99C684527F8F603DA36A0C /* AxisSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57D500EDBB3B4B04199B671BED6DD76 /* AxisSize.swift */; };
-		1E3D0477FC73716DE1EC01BD5A556215 /* LayoutAdapterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66CD2C1015DA60B9F5C784DFDC4075 /* LayoutAdapterTableView.swift */; };
-		20EE403D7273C16C731A25BFAFF064CA /* InsetLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03A2C765F2CC9864EBED70B65F2DC24 /* InsetLayout.swift */; };
-		26917E4FC8BAD1B34E68413FDEAF915E /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C6C824276C31AAECE2219ADE010B83 /* CGSizeExtension.swift */; };
-		3622BBE3D0AE536412474BE5F367F82D /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2F59E4E84D4ACA83C842BB8F17F94 /* Animation.swift */; };
-		515F3A50075E9E4BCAB63CEEAD4F7FEC /* ReloadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B5165A42AC7DCC5F65D05E004E21C8 /* ReloadableView.swift */; };
-		5CF03CD5D08D2D7A912160DA00D1C4E7 /* ReloadableViewUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3293C5C070467E0272F874DF22E8717 /* ReloadableViewUpdateManager.swift */; };
-		5F168A0CEEC3395905D9CD6098087043 /* ReloadableViewLayoutAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574325F7AC9273122868B101F98EB60 /* ReloadableViewLayoutAdapter.swift */; };
-		62D1F745701DE6CBE1F42C4C99A578DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
-		684AD5E6C4088EBC926418A9BC55638B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */; };
-		68B73513E1A0EC31C148FFCE52D3A311 /* BaseLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EA10436E5CA971179DA441EEA5FF2E /* BaseLayout.swift */; };
-		6B563C3DD62455D3374D53454B7DB744 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */; };
-		706E86D0370552A06A56897EB0B77127 /* StackLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE26C1DAF1BE6BCBE3F324923556C6 /* StackLayout.swift */; };
-		76F7416B81DFA4BE28A91DC392CEF89A /* AxisFlexibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F771787B12BB22226FB96352BAA0369 /* AxisFlexibility.swift */; };
-		772E8E6EA0BBDDA0C8BC7786B3E3055D /* ViewRecycler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15498AB117A4F62CD6014EFCE80909 /* ViewRecycler.swift */; };
-		7F2CBCEC036F2465E1DE2E75B254FD20 /* BatchUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997316DC62169117DBD11B2A0E6D7DE /* BatchUpdates.swift */; };
-		887B5FC27734BB0A84427AF1F4E74198 /* LayoutKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E50C149C1FA1014BEF2B8E9342FD3B9 /* LayoutKit-dummy.m */; };
-		98DFB28227B614B7CA3300DDC31B0275 /* TextViewDefaultFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A840B069C80993A4672A0C0B9281D6 /* TextViewDefaultFont.swift */; };
-		9BFAEC8905AA0D307CF01AFF6EFA0C24 /* Flexibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858F96D435166C9B8387FFCF079E83C /* Flexibility.swift */; };
-		9DDDCF229D837284261E97EE1A379FC2 /* UIKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC940BCC5107B5A4154AF88658CED9CA /* UIKitSupport.swift */; };
-		9DDEA8F99E80DE71402B306BACBA8D4F /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB358F062F6D1AC12BDA07CB5155C3 /* StackView.swift */; };
-		A35B1A339C04BC3C49267F1C4742DA8D /* Pods-Lunagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E99C758F174A719ED2957C6A3BB64638 /* Pods-Lunagram-dummy.m */; };
-		A5395511727CCD93C41C378660B90D0D /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8654B7EB024BA15E5C00889F385CB05 /* Layout.swift */; };
-		A679BD52BCBF17BFC947419BA366819D /* OverlayLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936E76F56E4F6F9095BD9E8657D2893A /* OverlayLayout.swift */; };
-		AC857400810065BD8DDD4C06D2A73DDF /* SizeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DB3266B9D80B352AC659D45ED5A990 /* SizeLayout.swift */; };
-		B030D6963A6AD2A07F542C3C95B70C82 /* ReloadableViewLayoutAdapter+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8661B4B98C3F6376CFDDF9B6053D38F /* ReloadableViewLayoutAdapter+UICollectionView.swift */; };
-		BC04AED05655F065D4BF3D7089796C84 /* Pods-Lunagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF638D323CB60431922D3592888FB04 /* Pods-Lunagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDB5B689E6B2C46EE505F877A75E0A23 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048E8D05D352E652D23A13E9F5DC199 /* CGFloatExtension.swift */; };
-		C144CD2CCF3CF8CC9BD251541C16E997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */; };
-		C1FF591AAB92E0C2E62F55B4028371EC /* LayoutAdapterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2BCAA066D15DC3B340AD44155B2C3 /* LayoutAdapterCollectionView.swift */; };
-		C3172A1285E3D45C2E6696A2D5A88C3F /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D503B63391478284244402D3FAAF2159 /* Text.swift */; };
-		C3DEC11A123830AB64B715C0BAD7EB1D /* TextViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06F42D031433804BBE5F077FC3072E /* TextViewLayout.swift */; };
-		C4AB3EBE397AEF5036211CC9A3268439 /* AxisPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441796746BEAC0B9C3E76C252E9FE0B /* AxisPoint.swift */; };
-		C60A23AC89778BD2A2A93784B468E342 /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7840A30190E475867C386C2E8785566 /* NSAttributedStringExtension.swift */; };
-		C978712623D6292E4764DC7353B27570 /* ConfigurableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD81F5CDAE520C0D14DBFCE84933375 /* ConfigurableLayout.swift */; };
-		D09ACF88BB2A8D923D472707F5985ABB /* LayoutArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45324CBEF1BE076726FFE624B9FE26 /* LayoutArrangement.swift */; };
-		DBD35DB4951C86A1326EDF07717F3D69 /* LabelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C2BCC47FCB449A3F1EEC00C340CFC6 /* LabelLayout.swift */; };
-		E148CEB8DBD5619057B1B389685B2FB7 /* LayoutKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD17F66DDDFD8BB2D030EEFA9A6F120B /* LayoutKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E626704EDEC0C4D6C7602D4B1BE61D57 /* ReloadableViewLayoutAdapter+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFBC440F8BAC69BF36B3C49D96F4E32 /* ReloadableViewLayoutAdapter+UITableView.swift */; };
-		E7B92F4739106B86CDC5C1FD55D68776 /* ButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302ACB18B5BD307AFBF7540B03BEF218 /* ButtonLayout.swift */; };
-		F975A2D5B2513A0084AB6ED1E07A4A21 /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2254B5B2E36E90778C7CC288DDCF21 /* Alignment.swift */; };
+		09B7237B431917BF02A14E7B783AD083 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A3ECCB7489854CAA077B5B187C912D /* ConstraintInsets.swift */; };
+		0E45F7CD48BFAE4C310705FEAC032D7F /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62526768B0933882A844A3CC52757009 /* ConstraintLayoutSupport.swift */; };
+		1210E7243862A900DB1A38CCE3F28B92 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */; };
+		13F9C216BF56481A59564ABC7072D114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		192FF5E6582A4AFFD51C153A0BE20889 /* Pods-LunagramTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0818897EB050E1C0AC5C32AB5954A4D5 /* Pods-LunagramTestApp-dummy.m */; };
+		2649D7C9AEF3D79D8FC2B9F56DA2D09F /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A12656157BC29CB51F2534C8EDF360 /* ConstraintInsetTarget.swift */; };
+		2BB966669596BCE3F9C474009CFBDF59 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E8324D0994261E310D8C9ABB5015C /* ConstraintLayoutGuideDSL.swift */; };
+		2C2A1075AAD72E8E473ABFF94AC93F5F /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A533BD0DE17143457FB42BF7749CDD /* ConstraintConfig.swift */; };
+		2C2FE8BF3949139A893E2ABCD61C066B /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA57917D5E295BADC0B25F3CDB9C4E8 /* ConstraintRelatableTarget.swift */; };
+		2F8A8E689A3F7CD22FC90A73390A5C0F /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */; };
+		377A0DE5EB96258AE6AD6C74B8EA3E1C /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD313B584F4DD046DAD1E1A5DBA2AA9A /* SnapKit-dummy.m */; };
+		3AEFA6618390A6ACDF0819A28381585F /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC92BE130C0A4CE98F06E9D397E55AF /* ConstraintPriorityTarget.swift */; };
+		3F3E10E3CFDAF81F05EB1BAFF54EEAA5 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161FED143DE8DD1AC41D71D22AEA464B /* ConstraintPriority.swift */; };
+		459669F133CA7895295280FD15C38D15 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5937AEDD4F642E09E0A1980BCC652 /* Debugging.swift */; };
+		52074A5C0FD8FDFED8AA71A43E0DD274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		52E21D5B391E4C5169ADD6C23369C4DD /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784E71663FDE42A52D425DA752FC02E7 /* ConstraintConstantTarget.swift */; };
+		55FC568CC3824951217A09154BE9064E /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D1E72289667D4BA6D946E25320953 /* LayoutConstraintItem.swift */; };
+		5F5EE861E6761BD57EBECE8F653E7E78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		60D1E72387B0A13C8152D2BD335A3998 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DAF3614C757BDAABBA78E4B4866FC /* ConstraintLayoutGuide+Extensions.swift */; };
+		6C7FC4ED6850D9E35C96A802A2F79643 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */; };
+		71F9066145649B0C060A42FC7C6661E7 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA20D94D18B89BCA5CF2600878CAB42 /* ConstraintMakerFinalizable.swift */; };
+		779D1CB7E3A945472F952A8C8038CCDB /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63DC83113A26BB1DB9ED37E0EE3F512 /* ConstraintDSL.swift */; };
+		7CA5618A796FE8DF7B02E4D865C5865A /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */; };
+		8B51F95B51D867FFA97CB002BD7AB2FC /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F812B71438F709C9BBB7D4B438DAA8B /* ConstraintMaker.swift */; };
+		8E5BCCF21325E4868B8F113F7ADB7070 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1619E6AE6BAD68A1F802AD244BFAB /* ConstraintMakerPriortizable.swift */; };
+		8F84842F920F3C3101E22F2321A6E8B3 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD64C66CE4DDF29ECD54691C69DE81 /* ConstraintAttributes.swift */; };
+		910006631E3E5D3F93BB1317A978252A /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFBC475A6AD866A5083DC5F61B3563 /* LayoutConstraint.swift */; };
+		9395026CB893EF84B3143F234B59C294 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902CDA99715ADA3EC010544308DA63A /* ConstraintMakerExtendable.swift */; };
+		950C188E137064FBF14FF0D2763CCF77 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED189CE3C9928FFAF66C86038ABFDB1 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B32991B67C66D800E87D7550110A13 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597745DD02F02027BEB927801E4E7E2 /* ConstraintDescription.swift */; };
+		97ACA68D05C83FFAB7EA515B441897C5 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */; };
+		A189B9C667F41CA06EA156B9E6BFADE0 /* Pods-LunagramTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C27A565CA9B9EC75A3364B0F3D532D /* Pods-LunagramTestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7480891BE0C43547398E4C30F22EFF6 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */; };
+		A7A9043E5475C2ACA867BF942721A1CE /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */; };
+		A89CD717BD09BED1BD772B14023F584B /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */; };
+		B17875E73155F4EA9E4995E423B6607C /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5902768DE34E1627B020F4B2FB7BBBE /* ConstraintLayoutSupportDSL.swift */; };
+		C5A3781B0C9A568CFE1D9B578C34D8B7 /* Pods-Lunagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECDF7BA34883AD1E1AF8C233D148BE9 /* Pods-Lunagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C80D072B3FA3A8688788B63409A0EFAA /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */; };
+		E70ADFFAE1CEE6794C249D17DC5DAE0F /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */; };
+		F0DD0E22BAF3215785DB0CCEF30E6470 /* Pods-Lunagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7484F12588363A73046B81E6BDBF6EC /* Pods-Lunagram-dummy.m */; };
+		F88B086E84822BD81FC86B2550BF8872 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */; };
+		FD0FEA6308F88128856D22DD74010CE4 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A156835F5B20B0DE5962C7DD63E2E761 /* Typealiases.swift */; };
+		FDE0B70445734129753F0F25E691488D /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA68C0BB2F9F5278EEE178B6A4A6E4FE /* PBXContainerItemProxy */ = {
+		0E903359D3EBD7A521B2A9FC3FED90B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E60382F5F645C531DA24A1E85350F74;
-			remoteInfo = LayoutKit;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		4628B95403FDEC58AA6ABC7CF9E512F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00769CC021D9F2D202BE69FED36E76DE /* LayoutKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LayoutKit.framework; path = LayoutKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0441796746BEAC0B9C3E76C252E9FE0B /* AxisPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisPoint.swift; path = Sources/Math/AxisPoint.swift; sourceTree = "<group>"; };
-		12C0CF133A8AFC4F9A8CB12B6EA9FDFE /* Pods-Lunagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lunagram.debug.xcconfig"; sourceTree = "<group>"; };
-		1DD81F5CDAE520C0D14DBFCE84933375 /* ConfigurableLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurableLayout.swift; path = Sources/ConfigurableLayout.swift; sourceTree = "<group>"; };
-		1F15498AB117A4F62CD6014EFCE80909 /* ViewRecycler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewRecycler.swift; path = Sources/ViewRecycler.swift; sourceTree = "<group>"; };
-		20B4E81FFB08BFF8B3B54F76B3281262 /* LayoutKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutKit-prefix.pch"; sourceTree = "<group>"; };
-		21AE26C1DAF1BE6BCBE3F324923556C6 /* StackLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StackLayout.swift; path = Sources/Layouts/StackLayout.swift; sourceTree = "<group>"; };
-		233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		26EA10436E5CA971179DA441EEA5FF2E /* BaseLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseLayout.swift; path = Sources/Layouts/BaseLayout.swift; sourceTree = "<group>"; };
-		2858F96D435166C9B8387FFCF079E83C /* Flexibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flexibility.swift; path = Sources/Flexibility.swift; sourceTree = "<group>"; };
-		2AB2BCAA066D15DC3B340AD44155B2C3 /* LayoutAdapterCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAdapterCollectionView.swift; path = Sources/Views/LayoutAdapterCollectionView.swift; sourceTree = "<group>"; };
-		300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		302ACB18B5BD307AFBF7540B03BEF218 /* ButtonLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonLayout.swift; path = Sources/Layouts/ButtonLayout.swift; sourceTree = "<group>"; };
-		34B5165A42AC7DCC5F65D05E004E21C8 /* ReloadableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReloadableView.swift; path = Sources/Views/ReloadableView.swift; sourceTree = "<group>"; };
-		39D3D8F69C659DBAEFDD4FAC62FDE8CD /* Axis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Axis.swift; path = Sources/Axis.swift; sourceTree = "<group>"; };
-		3DF638D323CB60431922D3592888FB04 /* Pods-Lunagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lunagram-umbrella.h"; sourceTree = "<group>"; };
-		467D17CB4EB07B4003792DC7AF5DB0F3 /* Pods-Lunagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lunagram-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F771787B12BB22226FB96352BAA0369 /* AxisFlexibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisFlexibility.swift; path = Sources/Math/AxisFlexibility.swift; sourceTree = "<group>"; };
-		5C678B92AC099B911E4F36AD8CC90BFC /* Pods-Lunagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lunagram.release.xcconfig"; sourceTree = "<group>"; };
-		6DFBC440F8BAC69BF36B3C49D96F4E32 /* ReloadableViewLayoutAdapter+UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReloadableViewLayoutAdapter+UITableView.swift"; path = "Sources/Views/ReloadableViewLayoutAdapter+UITableView.swift"; sourceTree = "<group>"; };
-		78DB3266B9D80B352AC659D45ED5A990 /* SizeLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeLayout.swift; path = Sources/Layouts/SizeLayout.swift; sourceTree = "<group>"; };
-		79A840B069C80993A4672A0C0B9281D6 /* TextViewDefaultFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewDefaultFont.swift; path = Sources/Internal/TextViewDefaultFont.swift; sourceTree = "<group>"; };
-		7E8C86D27ACF218A654E16D61AE62DDE /* LayoutMeasurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutMeasurement.swift; path = Sources/LayoutMeasurement.swift; sourceTree = "<group>"; };
-		7EBB358F062F6D1AC12BDA07CB5155C3 /* StackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StackView.swift; path = Sources/Views/StackView.swift; sourceTree = "<group>"; };
-		81572AC96247B6DFA16BB7D33BA58E45 /* LayoutKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LayoutKit.modulemap; sourceTree = "<group>"; };
-		88C2BCC47FCB449A3F1EEC00C340CFC6 /* LabelLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelLayout.swift; path = Sources/Layouts/LabelLayout.swift; sourceTree = "<group>"; };
-		8DCF206DE496EFDB22124401554343E2 /* Pods-Lunagram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lunagram-Info.plist"; sourceTree = "<group>"; };
-		8E50C149C1FA1014BEF2B8E9342FD3B9 /* LayoutKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayoutKit-dummy.m"; sourceTree = "<group>"; };
-		8E66CD2C1015DA60B9F5C784DFDC4075 /* LayoutAdapterTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAdapterTableView.swift; path = Sources/Views/LayoutAdapterTableView.swift; sourceTree = "<group>"; };
-		936E76F56E4F6F9095BD9E8657D2893A /* OverlayLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlayLayout.swift; path = Sources/Layouts/OverlayLayout.swift; sourceTree = "<group>"; };
-		9574325F7AC9273122868B101F98EB60 /* ReloadableViewLayoutAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReloadableViewLayoutAdapter.swift; path = Sources/Views/ReloadableViewLayoutAdapter.swift; sourceTree = "<group>"; };
+		072245FF30E0C5FE66459CEC89CFD37E /* Pods-Lunagram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lunagram-Info.plist"; sourceTree = "<group>"; };
+		0818897EB050E1C0AC5C32AB5954A4D5 /* Pods-LunagramTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LunagramTestApp-dummy.m"; sourceTree = "<group>"; };
+		0EC0141A12C8C78D7BB09956A2A71BA4 /* Pods-Lunagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lunagram.modulemap"; sourceTree = "<group>"; };
+		0ECDF7BA34883AD1E1AF8C233D148BE9 /* Pods-Lunagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lunagram-umbrella.h"; sourceTree = "<group>"; };
+		0FF30BF1D1065908439A400FDA42031A /* Pods-Lunagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lunagram-acknowledgements.markdown"; sourceTree = "<group>"; };
+		144DAF3614C757BDAABBA78E4B4866FC /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		161FED143DE8DD1AC41D71D22AEA464B /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		17C27A565CA9B9EC75A3364B0F3D532D /* Pods-LunagramTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LunagramTestApp-umbrella.h"; sourceTree = "<group>"; };
+		22DE455609E7EF06B29BFCBE62914037 /* Pods-Lunagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lunagram.debug.xcconfig"; sourceTree = "<group>"; };
+		25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		2B5B7A9D94B5F23D07232E6A76954EE2 /* Pods-LunagramTestApp.debugfork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LunagramTestApp.debugfork.xcconfig"; sourceTree = "<group>"; };
+		317746E2100A9613459740643DE1913A /* Pods-LunagramTestApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LunagramTestApp-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F812B71438F709C9BBB7D4B438DAA8B /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		40C5937AEDD4F642E09E0A1980BCC652 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		45FD64C66CE4DDF29ECD54691C69DE81 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		486915BE47106E2DB6E1108A5C4EBCC3 /* Pods-Lunagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lunagram-acknowledgements.plist"; sourceTree = "<group>"; };
+		48EFBC475A6AD866A5083DC5F61B3563 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		4BC92BE130C0A4CE98F06E9D397E55AF /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		5B3D1E72289667D4BA6D946E25320953 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		5E62545952A3F91C0FFB7163FA3ABB9E /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		5F0963664F83A6BFA92FFDD679023803 /* Pods-Lunagram.debugfork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lunagram.debugfork.xcconfig"; sourceTree = "<group>"; };
+		6043A60B74B531F62E520A7669D4E907 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		62526768B0933882A844A3CC52757009 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		6475C08328D85EA7F532F331DFD51331 /* Pods-Lunagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lunagram.release.xcconfig"; sourceTree = "<group>"; };
+		69A533BD0DE17143457FB42BF7749CDD /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		6BA20D94D18B89BCA5CF2600878CAB42 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		6C989B09284946FFACCF63EEB83BBC7C /* Pods-LunagramTestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LunagramTestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FED7DD645CF7EE688F4FBFE76F4B56A /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		7597745DD02F02027BEB927801E4E7E2 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		784E71663FDE42A52D425DA752FC02E7 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		7A9E8324D0994261E310D8C9ABB5015C /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		A52B84A3366D0FE59FF0F70E5C8D374B /* Pods-Lunagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lunagram.modulemap"; sourceTree = "<group>"; };
-		A9B2F59E4E84D4ACA83C842BB8F17F94 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = Sources/Animation.swift; sourceTree = "<group>"; };
-		AD2254B5B2E36E90778C7CC288DDCF21 /* Alignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alignment.swift; path = Sources/Alignment.swift; sourceTree = "<group>"; };
-		B4020087B7F256FB358F6BBD9C87C5B0 /* LayoutKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayoutKit.xcconfig; sourceTree = "<group>"; };
-		BB5AFC69A45AEECDA21E3C30084E148E /* LayoutKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LayoutKit-Info.plist"; sourceTree = "<group>"; };
-		BD27960CD8A6F3E6759F8270E8376FF3 /* Pods-Lunagram.debugfork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lunagram.debugfork.xcconfig"; sourceTree = "<group>"; };
-		C57D500EDBB3B4B04199B671BED6DD76 /* AxisSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisSize.swift; path = Sources/Math/AxisSize.swift; sourceTree = "<group>"; };
-		C7840A30190E475867C386C2E8785566 /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringExtension.swift; path = Sources/Internal/NSAttributedStringExtension.swift; sourceTree = "<group>"; };
-		CE45324CBEF1BE076726FFE624B9FE26 /* LayoutArrangement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutArrangement.swift; path = Sources/LayoutArrangement.swift; sourceTree = "<group>"; };
-		D503B63391478284244402D3FAAF2159 /* Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Text.swift; path = Sources/Text.swift; sourceTree = "<group>"; };
-		D7C6C824276C31AAECE2219ADE010B83 /* CGSizeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSizeExtension.swift; path = Sources/Internal/CGSizeExtension.swift; sourceTree = "<group>"; };
-		DD17F66DDDFD8BB2D030EEFA9A6F120B /* LayoutKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayoutKit-umbrella.h"; sourceTree = "<group>"; };
-		E3293C5C070467E0272F874DF22E8717 /* ReloadableViewUpdateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReloadableViewUpdateManager.swift; path = Sources/Views/ReloadableViewUpdateManager.swift; sourceTree = "<group>"; };
-		E55C7BC9AE0C51603EEF3721D636A71D /* CFAbsoluteTimeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFAbsoluteTimeExtension.swift; path = Sources/Internal/CFAbsoluteTimeExtension.swift; sourceTree = "<group>"; };
-		E8661B4B98C3F6376CFDDF9B6053D38F /* ReloadableViewLayoutAdapter+UICollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReloadableViewLayoutAdapter+UICollectionView.swift"; path = "Sources/Views/ReloadableViewLayoutAdapter+UICollectionView.swift"; sourceTree = "<group>"; };
-		E99C758F174A719ED2957C6A3BB64638 /* Pods-Lunagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lunagram-dummy.m"; sourceTree = "<group>"; };
-		EACABBBC45F314D8EAB192984A745D38 /* Pods-Lunagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lunagram-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE06F42D031433804BBE5F077FC3072E /* TextViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewLayout.swift; path = Sources/Layouts/TextViewLayout.swift; sourceTree = "<group>"; };
-		F03A2C765F2CC9864EBED70B65F2DC24 /* InsetLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InsetLayout.swift; path = Sources/Layouts/InsetLayout.swift; sourceTree = "<group>"; };
-		F048E8D05D352E652D23A13E9F5DC199 /* CGFloatExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtension.swift; path = Sources/Internal/CGFloatExtension.swift; sourceTree = "<group>"; };
-		F8654B7EB024BA15E5C00889F385CB05 /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Sources/Layout.swift; sourceTree = "<group>"; };
-		F997316DC62169117DBD11B2A0E6D7DE /* BatchUpdates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchUpdates.swift; path = Sources/Views/BatchUpdates.swift; sourceTree = "<group>"; };
-		FC940BCC5107B5A4154AF88658CED9CA /* UIKitSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitSupport.swift; path = Sources/UIKitSupport.swift; sourceTree = "<group>"; };
+		A156835F5B20B0DE5962C7DD63E2E761 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		A6F1619E6AE6BAD68A1F802AD244BFAB /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		A7484F12588363A73046B81E6BDBF6EC /* Pods-Lunagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lunagram-dummy.m"; sourceTree = "<group>"; };
+		A9D74378735C2DCDC5F1BA9F7936687B /* Pods-LunagramTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LunagramTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A3ECCB7489854CAA077B5B187C912D /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		B2A12656157BC29CB51F2534C8EDF360 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		B5F403AFA75E38FE4208A3D50436110B /* Pods-LunagramTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LunagramTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFA57917D5E295BADC0B25F3CDB9C4E8 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		CE3C8B119CEC1B11580605A62BA47985 /* Pods-LunagramTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LunagramTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		D5902768DE34E1627B020F4B2FB7BBBE /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		E536643C4F6CFD2F4A614EBB30E0295F /* Pods-LunagramTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LunagramTestApp-frameworks.sh"; sourceTree = "<group>"; };
+		EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		F63DC83113A26BB1DB9ED37E0EE3F512 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		F902CDA99715ADA3EC010544308DA63A /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		FD313B584F4DD046DAD1E1A5DBA2AA9A /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		FD5F709485DBDDF592651EBDC84F372E /* Pods-LunagramTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LunagramTestApp.modulemap"; sourceTree = "<group>"; };
 		FDCC1E3F16EEFEF4802DA35E78152C08 /* Pods_Lunagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lunagram.framework; path = "Pods-Lunagram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED189CE3C9928FFAF66C86038ABFDB1 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		FF12C09EB4E27CBE87FD8070E90B38A4 /* Pods_LunagramTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LunagramTestApp.framework; path = "Pods-LunagramTestApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E11BB65E5285D44B2BFA851600B019E /* Frameworks */ = {
+		5C36DD7FB100C85363985840460A8FDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B563C3DD62455D3374D53454B7DB744 /* CoreGraphics.framework in Frameworks */,
-				C144CD2CCF3CF8CC9BD251541C16E997 /* Foundation.framework in Frameworks */,
-				684AD5E6C4088EBC926418A9BC55638B /* UIKit.framework in Frameworks */,
+				5F5EE861E6761BD57EBECE8F653E7E78 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9A1B79F6AD069B1BAC5EACC29D1D97A /* Frameworks */ = {
+		7635F7F336633988A702A0EB2B19D1E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D1F745701DE6CBE1F42C4C99A578DB /* Foundation.framework in Frameworks */,
+				13F9C216BF56481A59564ABC7072D114 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF0D0D4B58345B1C11C0C711DE6173B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52074A5C0FD8FDFED8AA71A43E0DD274 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00ABB805A53E34FC62933E7DEB5F6C2B /* LayoutKit */ = {
+		08276A8FE2155DE03164CBBCE95EB1D2 /* Pods-LunagramTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				AD2254B5B2E36E90778C7CC288DDCF21 /* Alignment.swift */,
-				A9B2F59E4E84D4ACA83C842BB8F17F94 /* Animation.swift */,
-				39D3D8F69C659DBAEFDD4FAC62FDE8CD /* Axis.swift */,
-				4F771787B12BB22226FB96352BAA0369 /* AxisFlexibility.swift */,
-				0441796746BEAC0B9C3E76C252E9FE0B /* AxisPoint.swift */,
-				C57D500EDBB3B4B04199B671BED6DD76 /* AxisSize.swift */,
-				26EA10436E5CA971179DA441EEA5FF2E /* BaseLayout.swift */,
-				F997316DC62169117DBD11B2A0E6D7DE /* BatchUpdates.swift */,
-				302ACB18B5BD307AFBF7540B03BEF218 /* ButtonLayout.swift */,
-				E55C7BC9AE0C51603EEF3721D636A71D /* CFAbsoluteTimeExtension.swift */,
-				F048E8D05D352E652D23A13E9F5DC199 /* CGFloatExtension.swift */,
-				D7C6C824276C31AAECE2219ADE010B83 /* CGSizeExtension.swift */,
-				1DD81F5CDAE520C0D14DBFCE84933375 /* ConfigurableLayout.swift */,
-				2858F96D435166C9B8387FFCF079E83C /* Flexibility.swift */,
-				F03A2C765F2CC9864EBED70B65F2DC24 /* InsetLayout.swift */,
-				88C2BCC47FCB449A3F1EEC00C340CFC6 /* LabelLayout.swift */,
-				F8654B7EB024BA15E5C00889F385CB05 /* Layout.swift */,
-				2AB2BCAA066D15DC3B340AD44155B2C3 /* LayoutAdapterCollectionView.swift */,
-				8E66CD2C1015DA60B9F5C784DFDC4075 /* LayoutAdapterTableView.swift */,
-				CE45324CBEF1BE076726FFE624B9FE26 /* LayoutArrangement.swift */,
-				7E8C86D27ACF218A654E16D61AE62DDE /* LayoutMeasurement.swift */,
-				C7840A30190E475867C386C2E8785566 /* NSAttributedStringExtension.swift */,
-				936E76F56E4F6F9095BD9E8657D2893A /* OverlayLayout.swift */,
-				34B5165A42AC7DCC5F65D05E004E21C8 /* ReloadableView.swift */,
-				9574325F7AC9273122868B101F98EB60 /* ReloadableViewLayoutAdapter.swift */,
-				E8661B4B98C3F6376CFDDF9B6053D38F /* ReloadableViewLayoutAdapter+UICollectionView.swift */,
-				6DFBC440F8BAC69BF36B3C49D96F4E32 /* ReloadableViewLayoutAdapter+UITableView.swift */,
-				E3293C5C070467E0272F874DF22E8717 /* ReloadableViewUpdateManager.swift */,
-				78DB3266B9D80B352AC659D45ED5A990 /* SizeLayout.swift */,
-				21AE26C1DAF1BE6BCBE3F324923556C6 /* StackLayout.swift */,
-				7EBB358F062F6D1AC12BDA07CB5155C3 /* StackView.swift */,
-				D503B63391478284244402D3FAAF2159 /* Text.swift */,
-				79A840B069C80993A4672A0C0B9281D6 /* TextViewDefaultFont.swift */,
-				EE06F42D031433804BBE5F077FC3072E /* TextViewLayout.swift */,
-				FC940BCC5107B5A4154AF88658CED9CA /* UIKitSupport.swift */,
-				1F15498AB117A4F62CD6014EFCE80909 /* ViewRecycler.swift */,
-				C26D297A1F9A285FD1972EF2CF9ECE7B /* Support Files */,
+				FD5F709485DBDDF592651EBDC84F372E /* Pods-LunagramTestApp.modulemap */,
+				6C989B09284946FFACCF63EEB83BBC7C /* Pods-LunagramTestApp-acknowledgements.markdown */,
+				B5F403AFA75E38FE4208A3D50436110B /* Pods-LunagramTestApp-acknowledgements.plist */,
+				0818897EB050E1C0AC5C32AB5954A4D5 /* Pods-LunagramTestApp-dummy.m */,
+				E536643C4F6CFD2F4A614EBB30E0295F /* Pods-LunagramTestApp-frameworks.sh */,
+				317746E2100A9613459740643DE1913A /* Pods-LunagramTestApp-Info.plist */,
+				17C27A565CA9B9EC75A3364B0F3D532D /* Pods-LunagramTestApp-umbrella.h */,
+				A9D74378735C2DCDC5F1BA9F7936687B /* Pods-LunagramTestApp.debug.xcconfig */,
+				2B5B7A9D94B5F23D07232E6A76954EE2 /* Pods-LunagramTestApp.debugfork.xcconfig */,
+				CE3C8B119CEC1B11580605A62BA47985 /* Pods-LunagramTestApp.release.xcconfig */,
 			);
-			name = LayoutKit;
-			path = LayoutKit;
+			name = "Pods-LunagramTestApp";
+			path = "Target Support Files/Pods-LunagramTestApp";
 			sourceTree = "<group>";
 		};
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+		148BC5A8DD348E8B23D4AC464EF330EE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5246D3CB0F6FF3AC9502D9EA5C5D6540 /* iOS */,
+				3C899A798B846224FB080AA54563FCE3 /* Pods-Lunagram */,
+				08276A8FE2155DE03164CBBCE95EB1D2 /* Pods-LunagramTestApp */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5246D3CB0F6FF3AC9502D9EA5C5D6540 /* iOS */ = {
+		1BC860B3576744ADF398F6DA165F8117 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0099C32CD052D2679865CAE3EEEEAB2 /* CoreGraphics.framework */,
-				233AEAA73D843C0E91D6A0EF6C3F0E2F /* Foundation.framework */,
-				300D7C9C38226ED88862DA2E4F6D939A /* UIKit.framework */,
+				FDCC1E3F16EEFEF4802DA35E78152C08 /* Pods_Lunagram.framework */,
+				FF12C09EB4E27CBE87FD8070E90B38A4 /* Pods_LunagramTestApp.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		7C341CEE19AD4BE20A2D2953632A70FB /* Pods */ = {
+		3C899A798B846224FB080AA54563FCE3 /* Pods-Lunagram */ = {
 			isa = PBXGroup;
 			children = (
-				00ABB805A53E34FC62933E7DEB5F6C2B /* LayoutKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AA94B0A19FA2F828B44F7F7F6D5147D1 /* Pods-Lunagram */ = {
-			isa = PBXGroup;
-			children = (
-				A52B84A3366D0FE59FF0F70E5C8D374B /* Pods-Lunagram.modulemap */,
-				EACABBBC45F314D8EAB192984A745D38 /* Pods-Lunagram-acknowledgements.markdown */,
-				467D17CB4EB07B4003792DC7AF5DB0F3 /* Pods-Lunagram-acknowledgements.plist */,
-				E99C758F174A719ED2957C6A3BB64638 /* Pods-Lunagram-dummy.m */,
-				8DCF206DE496EFDB22124401554343E2 /* Pods-Lunagram-Info.plist */,
-				3DF638D323CB60431922D3592888FB04 /* Pods-Lunagram-umbrella.h */,
-				12C0CF133A8AFC4F9A8CB12B6EA9FDFE /* Pods-Lunagram.debug.xcconfig */,
-				BD27960CD8A6F3E6759F8270E8376FF3 /* Pods-Lunagram.debugfork.xcconfig */,
-				5C678B92AC099B911E4F36AD8CC90BFC /* Pods-Lunagram.release.xcconfig */,
+				0EC0141A12C8C78D7BB09956A2A71BA4 /* Pods-Lunagram.modulemap */,
+				0FF30BF1D1065908439A400FDA42031A /* Pods-Lunagram-acknowledgements.markdown */,
+				486915BE47106E2DB6E1108A5C4EBCC3 /* Pods-Lunagram-acknowledgements.plist */,
+				A7484F12588363A73046B81E6BDBF6EC /* Pods-Lunagram-dummy.m */,
+				072245FF30E0C5FE66459CEC89CFD37E /* Pods-Lunagram-Info.plist */,
+				0ECDF7BA34883AD1E1AF8C233D148BE9 /* Pods-Lunagram-umbrella.h */,
+				22DE455609E7EF06B29BFCBE62914037 /* Pods-Lunagram.debug.xcconfig */,
+				5F0963664F83A6BFA92FFDD679023803 /* Pods-Lunagram.debugfork.xcconfig */,
+				6475C08328D85EA7F532F331DFD51331 /* Pods-Lunagram.release.xcconfig */,
 			);
 			name = "Pods-Lunagram";
 			path = "Target Support Files/Pods-Lunagram";
 			sourceTree = "<group>";
 		};
-		C26D297A1F9A285FD1972EF2CF9ECE7B /* Support Files */ = {
+		427B270BD76A5EF45313FBF29233B96D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				81572AC96247B6DFA16BB7D33BA58E45 /* LayoutKit.modulemap */,
-				B4020087B7F256FB358F6BBD9C87C5B0 /* LayoutKit.xcconfig */,
-				8E50C149C1FA1014BEF2B8E9342FD3B9 /* LayoutKit-dummy.m */,
-				BB5AFC69A45AEECDA21E3C30084E148E /* LayoutKit-Info.plist */,
-				20B4E81FFB08BFF8B3B54F76B3281262 /* LayoutKit-prefix.pch */,
-				DD17F66DDDFD8BB2D030EEFA9A6F120B /* LayoutKit-umbrella.h */,
+				E9B3907E32293D14238C042AF3BAE652 /* SnapKit */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LayoutKit";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		C4111587FE2350955B73FC01CC8E08FB /* Targets Support Files */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AA94B0A19FA2F828B44F7F7F6D5147D1 /* Pods-Lunagram */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C91EDAA5CCFDB0CED5792EE230E47FD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FED7DD645CF7EE688F4FBFE76F4B56A /* SnapKit.modulemap */,
+				25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */,
+				FD313B584F4DD046DAD1E1A5DBA2AA9A /* SnapKit-dummy.m */,
+				6043A60B74B531F62E520A7669D4E907 /* SnapKit-Info.plist */,
+				5E62545952A3F91C0FFB7163FA3ABB9E /* SnapKit-prefix.pch */,
+				FED189CE3C9928FFAF66C86038ABFDB1 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				7C341CEE19AD4BE20A2D2953632A70FB /* Pods */,
-				F4ACEA5C540DA98E0ADDDD46E532C4FD /* Products */,
-				C4111587FE2350955B73FC01CC8E08FB /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				427B270BD76A5EF45313FBF29233B96D /* Pods */,
+				1BC860B3576744ADF398F6DA165F8117 /* Products */,
+				148BC5A8DD348E8B23D4AC464EF330EE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F4ACEA5C540DA98E0ADDDD46E532C4FD /* Products */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00769CC021D9F2D202BE69FED36E76DE /* LayoutKit.framework */,
-				FDCC1E3F16EEFEF4802DA35E78152C08 /* Pods_Lunagram.framework */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B3907E32293D14238C042AF3BAE652 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				C417784A7C0566CA3A4A90F972ECD6E6 /* Constraint.swift */,
+				45FD64C66CE4DDF29ECD54691C69DE81 /* ConstraintAttributes.swift */,
+				69A533BD0DE17143457FB42BF7749CDD /* ConstraintConfig.swift */,
+				784E71663FDE42A52D425DA752FC02E7 /* ConstraintConstantTarget.swift */,
+				7597745DD02F02027BEB927801E4E7E2 /* ConstraintDescription.swift */,
+				F63DC83113A26BB1DB9ED37E0EE3F512 /* ConstraintDSL.swift */,
+				B0A3ECCB7489854CAA077B5B187C912D /* ConstraintInsets.swift */,
+				B2A12656157BC29CB51F2534C8EDF360 /* ConstraintInsetTarget.swift */,
+				C65BFCA0A21044C1C3E6F663BB5F9B48 /* ConstraintItem.swift */,
+				A23DE5B5F4B593DDCE0ADE8616B85C5A /* ConstraintLayoutGuide.swift */,
+				144DAF3614C757BDAABBA78E4B4866FC /* ConstraintLayoutGuide+Extensions.swift */,
+				7A9E8324D0994261E310D8C9ABB5015C /* ConstraintLayoutGuideDSL.swift */,
+				62526768B0933882A844A3CC52757009 /* ConstraintLayoutSupport.swift */,
+				D5902768DE34E1627B020F4B2FB7BBBE /* ConstraintLayoutSupportDSL.swift */,
+				3F812B71438F709C9BBB7D4B438DAA8B /* ConstraintMaker.swift */,
+				8A26D91B0E800F3CC711EB9D4B7D643D /* ConstraintMakerEditable.swift */,
+				F902CDA99715ADA3EC010544308DA63A /* ConstraintMakerExtendable.swift */,
+				6BA20D94D18B89BCA5CF2600878CAB42 /* ConstraintMakerFinalizable.swift */,
+				A6F1619E6AE6BAD68A1F802AD244BFAB /* ConstraintMakerPriortizable.swift */,
+				ED05C0772840EE66B3EB754BEF846F7A /* ConstraintMakerRelatable.swift */,
+				9C12038B34951B9B002DAB0D5FE023DA /* ConstraintMultiplierTarget.swift */,
+				E21B4EB2CAC44390D976C65ABE1CE2F5 /* ConstraintOffsetTarget.swift */,
+				161FED143DE8DD1AC41D71D22AEA464B /* ConstraintPriority.swift */,
+				4BC92BE130C0A4CE98F06E9D397E55AF /* ConstraintPriorityTarget.swift */,
+				BFA57917D5E295BADC0B25F3CDB9C4E8 /* ConstraintRelatableTarget.swift */,
+				D21B2FDCEA78DB15010A749F9203D21F /* ConstraintRelation.swift */,
+				F5C9D6FEF48994711991A348A7B0B99A /* ConstraintView.swift */,
+				2AB05D22C92E5A571A653D510E552AC0 /* ConstraintView+Extensions.swift */,
+				EC0E4E3541BF32A5C4247EA2CC09B4BE /* ConstraintViewDSL.swift */,
+				40C5937AEDD4F642E09E0A1980BCC652 /* Debugging.swift */,
+				48EFBC475A6AD866A5083DC5F61B3563 /* LayoutConstraint.swift */,
+				5B3D1E72289667D4BA6D946E25320953 /* LayoutConstraintItem.swift */,
+				A156835F5B20B0DE5962C7DD63E2E761 /* Typealiases.swift */,
+				9C87F70E835D22459F492D40CB584A67 /* UILayoutSupport+Extensions.swift */,
+				C91EDAA5CCFDB0CED5792EE230E47FD8 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1FB8ECD934D2A07488B82E9BF115869F /* Headers */ = {
+		33CAD213253774C020FB2E54F7286AD8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E148CEB8DBD5619057B1B389685B2FB7 /* LayoutKit-umbrella.h in Headers */,
+				C5A3781B0C9A568CFE1D9B578C34D8B7 /* Pods-Lunagram-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E999F68EFA0DA4F28DD4141D842D5E78 /* Headers */ = {
+		64A161A0C0C19739A7A4EB0018BC2035 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC04AED05655F065D4BF3D7089796C84 /* Pods-Lunagram-umbrella.h in Headers */,
+				950C188E137064FBF14FF0D2763CCF77 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8E78E529BB18AE42E7CC68F4ACFBC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A189B9C667F41CA06EA156B9E6BFADE0 /* Pods-LunagramTestApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8E60382F5F645C531DA24A1E85350F74 /* LayoutKit */ = {
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181CD49D6D263186569B344FB070E3AA /* Build configuration list for PBXNativeTarget "LayoutKit" */;
+			buildConfigurationList = 8AF33C5C98E40FA334D39E9095EB482C /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				1FB8ECD934D2A07488B82E9BF115869F /* Headers */,
-				F0B8200C75D9EBD18C636FB9290D7162 /* Sources */,
-				1E11BB65E5285D44B2BFA851600B019E /* Frameworks */,
-				83C27BF47D1B54692D5CB079ED6A6039 /* Resources */,
+				64A161A0C0C19739A7A4EB0018BC2035 /* Headers */,
+				79446DF9C1C1DCF736E7A77CD1B4D852 /* Sources */,
+				CDF0D0D4B58345B1C11C0C711DE6173B /* Frameworks */,
+				49A1B8E8593AF114973D25E874EBC2BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LayoutKit;
-			productName = LayoutKit;
-			productReference = 00769CC021D9F2D202BE69FED36E76DE /* LayoutKit.framework */;
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27731D3AE8CB9F0BA3D660D075A13B23 /* Pods-LunagramTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3481E7080A0B3664ADE878BA12C19381 /* Build configuration list for PBXNativeTarget "Pods-LunagramTestApp" */;
+			buildPhases = (
+				6C8E78E529BB18AE42E7CC68F4ACFBC3 /* Headers */,
+				80BFF35C211AC684141327D3A9F006D4 /* Sources */,
+				7635F7F336633988A702A0EB2B19D1E9 /* Frameworks */,
+				72E9FF292140BE321EDA8D48ACEAC20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C82C70EE2810D25FAF8EB172F2878F /* PBXTargetDependency */,
+			);
+			name = "Pods-LunagramTestApp";
+			productName = "Pods-LunagramTestApp";
+			productReference = FF12C09EB4E27CBE87FD8070E90B38A4 /* Pods_LunagramTestApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF40B70C020B8126EEA183BB8B810E84 /* Pods-Lunagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DEE76F756D12A917A6878B3DB08FBC2 /* Build configuration list for PBXNativeTarget "Pods-Lunagram" */;
+			buildConfigurationList = 9571A4E91AEFC8165A8C535D8C52BD3B /* Build configuration list for PBXNativeTarget "Pods-Lunagram" */;
 			buildPhases = (
-				E999F68EFA0DA4F28DD4141D842D5E78 /* Headers */,
-				B1C537D472BA7C35F5F1F1F8AA5DF6D3 /* Sources */,
-				C9A1B79F6AD069B1BAC5EACC29D1D97A /* Frameworks */,
-				61DF38AAD46077CDC9DD63C5454D8141 /* Resources */,
+				33CAD213253774C020FB2E54F7286AD8 /* Headers */,
+				F69C306A9C9CB9D85557BCDEAD02E97F /* Sources */,
+				5C36DD7FB100C85363985840460A8FDE /* Frameworks */,
+				272BA9A222D5D6078323367761CBF216 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B555BDB4CB29CBB8E8BB87F63F0CBB20 /* PBXTargetDependency */,
+				5C978245DA169FE85882275EC34863F0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Lunagram";
 			productName = "Pods-Lunagram";
@@ -351,25 +413,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F4ACEA5C540DA98E0ADDDD46E532C4FD /* Products */;
+			productRefGroup = 1BC860B3576744ADF398F6DA165F8117 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E60382F5F645C531DA24A1E85350F74 /* LayoutKit */,
 				BF40B70C020B8126EEA183BB8B810E84 /* Pods-Lunagram */,
+				27731D3AE8CB9F0BA3D660D075A13B23 /* Pods-LunagramTestApp */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61DF38AAD46077CDC9DD63C5454D8141 /* Resources */ = {
+		272BA9A222D5D6078323367761CBF216 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C27BF47D1B54692D5CB079ED6A6039 /* Resources */ = {
+		49A1B8E8593AF114973D25E874EBC2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E9FF292140BE321EDA8D48ACEAC20C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,73 +449,159 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B1C537D472BA7C35F5F1F1F8AA5DF6D3 /* Sources */ = {
+		79446DF9C1C1DCF736E7A77CD1B4D852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A35B1A339C04BC3C49267F1C4742DA8D /* Pods-Lunagram-dummy.m in Sources */,
+				E70ADFFAE1CEE6794C249D17DC5DAE0F /* Constraint.swift in Sources */,
+				8F84842F920F3C3101E22F2321A6E8B3 /* ConstraintAttributes.swift in Sources */,
+				2C2A1075AAD72E8E473ABFF94AC93F5F /* ConstraintConfig.swift in Sources */,
+				52E21D5B391E4C5169ADD6C23369C4DD /* ConstraintConstantTarget.swift in Sources */,
+				95B32991B67C66D800E87D7550110A13 /* ConstraintDescription.swift in Sources */,
+				779D1CB7E3A945472F952A8C8038CCDB /* ConstraintDSL.swift in Sources */,
+				09B7237B431917BF02A14E7B783AD083 /* ConstraintInsets.swift in Sources */,
+				2649D7C9AEF3D79D8FC2B9F56DA2D09F /* ConstraintInsetTarget.swift in Sources */,
+				A89CD717BD09BED1BD772B14023F584B /* ConstraintItem.swift in Sources */,
+				60D1E72387B0A13C8152D2BD335A3998 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				2F8A8E689A3F7CD22FC90A73390A5C0F /* ConstraintLayoutGuide.swift in Sources */,
+				2BB966669596BCE3F9C474009CFBDF59 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				0E45F7CD48BFAE4C310705FEAC032D7F /* ConstraintLayoutSupport.swift in Sources */,
+				B17875E73155F4EA9E4995E423B6607C /* ConstraintLayoutSupportDSL.swift in Sources */,
+				8B51F95B51D867FFA97CB002BD7AB2FC /* ConstraintMaker.swift in Sources */,
+				C80D072B3FA3A8688788B63409A0EFAA /* ConstraintMakerEditable.swift in Sources */,
+				9395026CB893EF84B3143F234B59C294 /* ConstraintMakerExtendable.swift in Sources */,
+				71F9066145649B0C060A42FC7C6661E7 /* ConstraintMakerFinalizable.swift in Sources */,
+				8E5BCCF21325E4868B8F113F7ADB7070 /* ConstraintMakerPriortizable.swift in Sources */,
+				1210E7243862A900DB1A38CCE3F28B92 /* ConstraintMakerRelatable.swift in Sources */,
+				6C7FC4ED6850D9E35C96A802A2F79643 /* ConstraintMultiplierTarget.swift in Sources */,
+				F88B086E84822BD81FC86B2550BF8872 /* ConstraintOffsetTarget.swift in Sources */,
+				3F3E10E3CFDAF81F05EB1BAFF54EEAA5 /* ConstraintPriority.swift in Sources */,
+				3AEFA6618390A6ACDF0819A28381585F /* ConstraintPriorityTarget.swift in Sources */,
+				2C2FE8BF3949139A893E2ABCD61C066B /* ConstraintRelatableTarget.swift in Sources */,
+				FDE0B70445734129753F0F25E691488D /* ConstraintRelation.swift in Sources */,
+				A7480891BE0C43547398E4C30F22EFF6 /* ConstraintView+Extensions.swift in Sources */,
+				7CA5618A796FE8DF7B02E4D865C5865A /* ConstraintView.swift in Sources */,
+				A7A9043E5475C2ACA867BF942721A1CE /* ConstraintViewDSL.swift in Sources */,
+				459669F133CA7895295280FD15C38D15 /* Debugging.swift in Sources */,
+				910006631E3E5D3F93BB1317A978252A /* LayoutConstraint.swift in Sources */,
+				55FC568CC3824951217A09154BE9064E /* LayoutConstraintItem.swift in Sources */,
+				377A0DE5EB96258AE6AD6C74B8EA3E1C /* SnapKit-dummy.m in Sources */,
+				FD0FEA6308F88128856D22DD74010CE4 /* Typealiases.swift in Sources */,
+				97ACA68D05C83FFAB7EA515B441897C5 /* UILayoutSupport+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B8200C75D9EBD18C636FB9290D7162 /* Sources */ = {
+		80BFF35C211AC684141327D3A9F006D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F975A2D5B2513A0084AB6ED1E07A4A21 /* Alignment.swift in Sources */,
-				3622BBE3D0AE536412474BE5F367F82D /* Animation.swift in Sources */,
-				177D8FC2851DD4CBF680BB32D554C8D8 /* Axis.swift in Sources */,
-				76F7416B81DFA4BE28A91DC392CEF89A /* AxisFlexibility.swift in Sources */,
-				C4AB3EBE397AEF5036211CC9A3268439 /* AxisPoint.swift in Sources */,
-				1D9716E21C99C684527F8F603DA36A0C /* AxisSize.swift in Sources */,
-				68B73513E1A0EC31C148FFCE52D3A311 /* BaseLayout.swift in Sources */,
-				7F2CBCEC036F2465E1DE2E75B254FD20 /* BatchUpdates.swift in Sources */,
-				E7B92F4739106B86CDC5C1FD55D68776 /* ButtonLayout.swift in Sources */,
-				0AC3A21B3E23E2E3B4ED8DF6B43F4D4A /* CFAbsoluteTimeExtension.swift in Sources */,
-				BDB5B689E6B2C46EE505F877A75E0A23 /* CGFloatExtension.swift in Sources */,
-				26917E4FC8BAD1B34E68413FDEAF915E /* CGSizeExtension.swift in Sources */,
-				C978712623D6292E4764DC7353B27570 /* ConfigurableLayout.swift in Sources */,
-				9BFAEC8905AA0D307CF01AFF6EFA0C24 /* Flexibility.swift in Sources */,
-				20EE403D7273C16C731A25BFAFF064CA /* InsetLayout.swift in Sources */,
-				DBD35DB4951C86A1326EDF07717F3D69 /* LabelLayout.swift in Sources */,
-				A5395511727CCD93C41C378660B90D0D /* Layout.swift in Sources */,
-				C1FF591AAB92E0C2E62F55B4028371EC /* LayoutAdapterCollectionView.swift in Sources */,
-				1E3D0477FC73716DE1EC01BD5A556215 /* LayoutAdapterTableView.swift in Sources */,
-				D09ACF88BB2A8D923D472707F5985ABB /* LayoutArrangement.swift in Sources */,
-				887B5FC27734BB0A84427AF1F4E74198 /* LayoutKit-dummy.m in Sources */,
-				04F342CB10FEE51EDC9C4FA8ACCD328C /* LayoutMeasurement.swift in Sources */,
-				C60A23AC89778BD2A2A93784B468E342 /* NSAttributedStringExtension.swift in Sources */,
-				A679BD52BCBF17BFC947419BA366819D /* OverlayLayout.swift in Sources */,
-				515F3A50075E9E4BCAB63CEEAD4F7FEC /* ReloadableView.swift in Sources */,
-				B030D6963A6AD2A07F542C3C95B70C82 /* ReloadableViewLayoutAdapter+UICollectionView.swift in Sources */,
-				E626704EDEC0C4D6C7602D4B1BE61D57 /* ReloadableViewLayoutAdapter+UITableView.swift in Sources */,
-				5F168A0CEEC3395905D9CD6098087043 /* ReloadableViewLayoutAdapter.swift in Sources */,
-				5CF03CD5D08D2D7A912160DA00D1C4E7 /* ReloadableViewUpdateManager.swift in Sources */,
-				AC857400810065BD8DDD4C06D2A73DDF /* SizeLayout.swift in Sources */,
-				706E86D0370552A06A56897EB0B77127 /* StackLayout.swift in Sources */,
-				9DDEA8F99E80DE71402B306BACBA8D4F /* StackView.swift in Sources */,
-				C3172A1285E3D45C2E6696A2D5A88C3F /* Text.swift in Sources */,
-				98DFB28227B614B7CA3300DDC31B0275 /* TextViewDefaultFont.swift in Sources */,
-				C3DEC11A123830AB64B715C0BAD7EB1D /* TextViewLayout.swift in Sources */,
-				9DDDCF229D837284261E97EE1A379FC2 /* UIKitSupport.swift in Sources */,
-				772E8E6EA0BBDDA0C8BC7786B3E3055D /* ViewRecycler.swift in Sources */,
+				192FF5E6582A4AFFD51C153A0BE20889 /* Pods-LunagramTestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69C306A9C9CB9D85557BCDEAD02E97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DD0E22BAF3215785DB0CCEF30E6470 /* Pods-Lunagram-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B555BDB4CB29CBB8E8BB87F63F0CBB20 /* PBXTargetDependency */ = {
+		5C978245DA169FE85882275EC34863F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LayoutKit;
-			target = 8E60382F5F645C531DA24A1E85350F74 /* LayoutKit */;
-			targetProxy = AA68C0BB2F9F5278EEE178B6A4A6E4FE /* PBXContainerItemProxy */;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 0E903359D3EBD7A521B2A9FC3FED90B3 /* PBXContainerItemProxy */;
+		};
+		64C82C70EE2810D25FAF8EB172F2878F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 4628B95403FDEC58AA6ABC7CF9E512F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07990098164A60757E73D6376282F833 /* Debug */ = {
+		0F3942597FF0B9BF1F644CD71256E5D8 /* DebugFork */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12C0CF133A8AFC4F9A8CB12B6EA9FDFE /* Pods-Lunagram.debug.xcconfig */;
+			baseConfigurationReference = 2B5B7A9D94B5F23D07232E6A76954EE2 /* Pods-LunagramTestApp.debugfork.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LunagramTestApp/Pods-LunagramTestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LunagramTestApp/Pods-LunagramTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugFork;
+		};
+		16B790C36B59BC13E74F4676EFA629D7 /* DebugFork */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugFork;
+		};
+		25EAF8F25DB0576AC1A9A6E499CDD016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DE455609E7EF06B29BFCBE62914037 /* Pods-Lunagram.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -480,9 +636,9 @@
 			};
 			name = Debug;
 		};
-		2A2CBDBA1C5D78210EC78BAFA65B581F /* DebugFork */ = {
+		45DA8D74D9F67EC62D234380A7AE39AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD27960CD8A6F3E6759F8270E8376FF3 /* Pods-Lunagram.debugfork.xcconfig */;
+			baseConfigurationReference = A9D74378735C2DCDC5F1BA9F7936687B /* Pods-LunagramTestApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -494,7 +650,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Lunagram/Pods-Lunagram-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LunagramTestApp/Pods-LunagramTestApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,7 +659,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Lunagram/Pods-Lunagram.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LunagramTestApp/Pods-LunagramTestApp.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -512,11 +668,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = DebugFork;
+			name = Debug;
 		};
 		5C35396553DECC081C8A08FD2B2E0755 /* DebugFork */ = {
 			isa = XCBuildConfiguration;
@@ -578,9 +733,9 @@
 			};
 			name = DebugFork;
 		};
-		6850BBD48A24B3D6971A8165042BB510 /* Debug */ = {
+		758E3F5792D3889933A7D5AB0C5D7F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4020087B7F256FB358F6BBD9C87C5B0 /* LayoutKit.xcconfig */;
+			baseConfigurationReference = 25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -591,8 +746,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LayoutKit/LayoutKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LayoutKit/LayoutKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -600,56 +755,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/LayoutKit/LayoutKit.modulemap";
-				PRODUCT_MODULE_NAME = LayoutKit;
-				PRODUCT_NAME = LayoutKit;
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6C7A2B8C88132E77800A0E2F4A5E5F50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C678B92AC099B911E4F36AD8CC90BFC /* Pods-Lunagram.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Lunagram/Pods-Lunagram-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Lunagram/Pods-Lunagram.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -708,6 +825,44 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8F8E5AB12937F00DBCE9EF34852DA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6475C08328D85EA7F532F331DFD51331 /* Pods-Lunagram.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lunagram/Pods-Lunagram-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lunagram/Pods-Lunagram.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -775,9 +930,9 @@
 			};
 			name = Debug;
 		};
-		D0D40D929151D98027EDFA18A2BCA499 /* Release */ = {
+		9C7865D431BC604C4608AF3BF5115715 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4020087B7F256FB358F6BBD9C87C5B0 /* LayoutKit.xcconfig */;
+			baseConfigurationReference = 25E34EF5671A453947A4DB0C58A03A48 /* SnapKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -788,8 +943,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LayoutKit/LayoutKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LayoutKit/LayoutKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -797,13 +952,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/LayoutKit/LayoutKit.modulemap";
-				PRODUCT_MODULE_NAME = LayoutKit;
-				PRODUCT_NAME = LayoutKit;
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -811,10 +966,11 @@
 			};
 			name = Release;
 		};
-		D8B81CF7AD3CE665E5D3B7E4EAFE528A /* DebugFork */ = {
+		A7A3B369186C8D759D4A6A8D8BD9DA18 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4020087B7F256FB358F6BBD9C87C5B0 /* LayoutKit.xcconfig */;
+			baseConfigurationReference = CE3C8B119CEC1B11580605A62BA47985 /* Pods-LunagramTestApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -824,22 +980,61 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LayoutKit/LayoutKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LayoutKit/LayoutKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LunagramTestApp/Pods-LunagramTestApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/LayoutKit/LayoutKit.modulemap";
-				PRODUCT_MODULE_NAME = LayoutKit;
-				PRODUCT_NAME = LayoutKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LunagramTestApp/Pods-LunagramTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9B6D6AD9E36D004702ADCC64D1D735D /* DebugFork */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0963664F83A6BFA92FFDD679023803 /* Pods-Lunagram.debugfork.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lunagram/Pods-Lunagram-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lunagram/Pods-Lunagram.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -850,12 +1045,12 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		181CD49D6D263186569B344FB070E3AA /* Build configuration list for PBXNativeTarget "LayoutKit" */ = {
+		3481E7080A0B3664ADE878BA12C19381 /* Build configuration list for PBXNativeTarget "Pods-LunagramTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6850BBD48A24B3D6971A8165042BB510 /* Debug */,
-				D8B81CF7AD3CE665E5D3B7E4EAFE528A /* DebugFork */,
-				D0D40D929151D98027EDFA18A2BCA499 /* Release */,
+				45DA8D74D9F67EC62D234380A7AE39AD /* Debug */,
+				0F3942597FF0B9BF1F644CD71256E5D8 /* DebugFork */,
+				A7A3B369186C8D759D4A6A8D8BD9DA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -870,12 +1065,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DEE76F756D12A917A6878B3DB08FBC2 /* Build configuration list for PBXNativeTarget "Pods-Lunagram" */ = {
+		8AF33C5C98E40FA334D39E9095EB482C /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07990098164A60757E73D6376282F833 /* Debug */,
-				2A2CBDBA1C5D78210EC78BAFA65B581F /* DebugFork */,
-				6C7A2B8C88132E77800A0E2F4A5E5F50 /* Release */,
+				758E3F5792D3889933A7D5AB0C5D7F2A /* Debug */,
+				16B790C36B59BC13E74F4676EFA629D7 /* DebugFork */,
+				9C7865D431BC604C4608AF3BF5115715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9571A4E91AEFC8165A8C535D8C52BD3B /* Build configuration list for PBXNativeTarget "Pods-Lunagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EAF8F25DB0576AC1A9A6E499CDD016 /* Debug */,
+				C9B6D6AD9E36D004702ADCC64D1D735D /* DebugFork */,
+				8F8E5AB12937F00DBCE9EF34852DA872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

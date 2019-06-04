@@ -7,9 +7,14 @@ project 'submodules/Lunagram/Lunagram.xcodeproj'
 
 target 'Lunagram' do
 
-  pod 'LayoutKit'
+  pod 'SnapKit'
   use_frameworks!
 
-  # Pods for NotificationContent
+end
 
+target 'LunagramTestApp' do
+  
+  pod 'SnapKit'
+  use_frameworks!
+  
 end
