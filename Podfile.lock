@@ -1,24 +1,28 @@
 PODS:
   - Alamofire (4.8.2)
+  - BitcoinKit (1.0.2)
   - CryptoSwift (1.0.0)
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - Alamofire
+  - BitcoinKit
   - CryptoSwift
   - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - BitcoinKit
     - CryptoSwift
     - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BitcoinKit: 5502c14d72ab665fbe00dc72abd74439a38ef9bc
   CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 7591e13f6548151db6a87ef7aa6733c94ca4b3d5
+PODFILE CHECKSUM: 3ffdcb257c1a79dd47419fc5e4da82e72d7c17cc
 
 COCOAPODS: 1.7.1

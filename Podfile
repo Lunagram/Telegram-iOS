@@ -10,6 +10,7 @@ target 'Lunagram' do
   pod 'SnapKit'
   pod 'Alamofire'
   pod 'CryptoSwift'
+  pod 'BitcoinKit'
   use_frameworks!
 
 end
@@ -19,6 +20,7 @@ target 'LunagramTestApp' do
   pod 'SnapKit'
   pod 'Alamofire'
   pod 'CryptoSwift'
+  pod 'BitcoinKit'
   use_frameworks!
   
 end
